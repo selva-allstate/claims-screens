@@ -1,0 +1,66 @@
+body
+{
+    color:#0000ff; /*set font colour to Blue */
+    background-color: silver;
+    /*text-align: center;*/
+}
+h3{
+    text-align: center;
+}
+h1{
+    background-color: lawngreen;
+    text-align: left;
+}
+div{
+    background-color: aqua;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+label{
+    width: 150px;
+    display: block;
+    float:left;
+}
+select, input{
+    margin-bottom: 10px;
+}
+button
+{
+    padding: 10px;
+}
+.nav{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    background-color: yellow;
+}
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+a:link
+{
+    text-decoration: none;
+}
+.container
+{
+    border:1px solid #ccc;
+    width:500px;
+}
+@media screen and (max-width:767px)
+{
+    .container{
+        width:90%;
+    }
+    
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	.container {
+	width:  700px;
+	}
+}

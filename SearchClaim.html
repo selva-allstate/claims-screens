@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device=width, initial-scale=1.0">
+        <title>
+            Search Claim
+        </title>
+        <link href="styles1.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>Speedy Claims</h1>
+        <!--button name="logout">LOG OUT</button-->
+        <ul class="nav">
+            <li><a href="ClaimForm.html">Home</a></li>
+            <li><a href="ClaimForm.html">New Claim</a></li>
+            <li><a href="SearchClaim.html">Search Claim</a></li>
+        </ul>
+        <br>
+        <h3> Search Claim</h3>
+        <form action="https://some-server123.com/claim" method="post">
+            <div class="container">
+                <fieldset>
+                <label for="policyno">Policy Number </label>
+                <input name="policyno" type="text" placeholder="Policy Number" maxlength="15">
+                <br>
+                <label for="surname">Surname</label>
+                <input name="surname" type="text" placeholder="Surname" maxlength="30">
+                <br>
+
+                <br>
+                <table>
+                    <caption>Claim Status</caption>
+                    <tr>
+                        <th>Policy Number</th>
+                        <th>Surname</th>
+                        <th>Status</th>
+                        <th></th>
+
+                    </tr>
+                    <tr>
+                        <td>3219765</td>
+                        <td>Chris</td>
+                        <td>Active</td>
+                        <td><button>OPEN</button></td>
+                    </tr>
+                    <tr>
+                        <td>76545</td>
+                        <td>Hughes</td>
+                        <td>Approved</td>
+                        <td><button>OPEN</button></td>
+                    </tr>
+                </table>
+                </fieldset>
+            </div>
+        </form>
+
+</html>
